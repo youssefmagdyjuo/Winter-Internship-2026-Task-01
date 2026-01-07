@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef Magdy Shaaban - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Youssef Magdy</h1>
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Toast container -->
+    <div id="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Youssef Magdy Shaaban</h1>
+            <p class="role">MERN Stack Developer</p>
+            <p class="intro">MERN Stack Developer with a strong business background, passionate about crafting
+                efficient, user-friendly web applications. I leverage my technical expertise and business insight to
+                deliver innovative solutions that enhance user experience and drive growth.</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About Me & Education Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me & Education</h2>
+            <div class="about-content">
+                <p><strong>Work Experience:</strong> Web Developer Assistant at Nile of Hope Hospital (1/7/2024 –
+                    21/9/2024), collaborating closely with professional developers to learn modern web development
+                    techniques. Assisted in designing and developing responsive, user-friendly web pages for the
+                    hospital website.</p>
+
+                <p><strong>Education:</strong> Bachelor's Degree in Management Information Systems from the Faculty of
+                    Business at Alexandria University, graduated with Excellent Grade (2025) with a GPA of 3.7.</p>
+
+                <p><strong>Career Objectives:</strong> To become a skilled MERN Stack Developer who can lead projects,
+                    deliver innovative solutions, and craft efficient, user-friendly web applications that drive
+                    business growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <ul class="skill-list">
+                        <li>React.js</li>
+                        <li>Node.js & Express.js</li>
+                        <li>MongoDB</li>
+                        <li>Redux Toolkit</li>
+                        <li>HTML5 & CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>RESTful APIs</li>
+                        <li>Git version control</li>
+                        <li>Axios</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Additional Skills</h3>
+                    <ul class="skill-list">
+                        <li>Wireframe development (Figma)</li>
+                        <li>UI and UX prototyping</li>
+                        <li>Arabic (Native)</li>
+                        <li>English (Intermediate)</li>
+                        <li>Japanese (Beginner)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Islamic Web Platform (Methaq)</h3>
+                    <p class="project-description">A comprehensive Islamic web application that provides multiple
+                        religious utilities within one platform. Features prayer times with live countdown, real-time
+                        Qibla direction compass, dynamic Zakat calculators for various asset types, and a digital
+                        Misbaha counter for Dhikr tracking.</p>
+                    <div class="project-details">
+                        <p><strong>Key Features:</strong></p>
+                        <ul>
+                            <li>Prayer times: Integrated Aladhan API for accurate prayer timings</li>
+                            <li>Qibla direction: Real-time compass using device orientation and geolocation</li>
+                            <li>Zakat calculator: Dynamic calculators with real-time validation</li>
+                            <li>Digital tasbeeh: Misbaha counter with reset and tracking features</li>
+                        </ul>
+                    </div>
+                    <div class="technologies">
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">Axios</span>
+                        <span class="tech-tag">Moment.js</span>
+                        <span class="tech-tag">Geolocation API</span>
+                        <span class="tech-tag">CSS Modules</span>
+                    </div>
+                    <a href="https://github.com/youssefmagdyjuo/methaq" class="project-link" target="_blank">View on
+                        GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Invoice Management System</h3>
+                    <p class="project-description">A full-featured invoice management web application enabling creation,
+                        saving, searching, and efficient management of invoices. Features dynamic form components,
+                        automatic invoice numbering, powerful search and filtering, and PDF export functionality.</p>
+                    <div class="project-details">
+                        <p><strong>Key Features:</strong></p>
+                        <ul>
+                            <li>Dynamic invoice creation and editing with client and product details</li>
+                            <li>Automatic numbering and date handling with Redux</li>
+                            <li>Powerful search system by client name, phone, date, and country</li>
+                            <li>PDF generation via custom HTML templates</li>
+                            <li>Full CRUD operations and responsive UI with reusable components</li>
+                        </ul>
+                    </div>
+                    <div class="technologies">
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">Redux Toolkit</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">TailwindCSS</span>
+                    </div>
+                    <a href="https://github.com/youssefmagdyjuo/Invoice_System" class="project-link"
+                        target="_blank">View on GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Quiz Application</h3>
+                    <p class="project-description">An interactive quiz platform where users select a category,
+                        difficulty level, and number of questions. The app dynamically fetches questions from an
+                        external API and provides real-time feedback and score tracking.</p>
+                    <div class="project-details">
+                        <p><strong>Key Features:</strong></p>
+                        <ul>
+                            <li>Category and difficulty selection interface</li>
+                            <li>Dynamic question fetching from Open Trivia DB API</li>
+                            <li>Real-time feedback and score tracking</li>
+                            <li>Quiz history tracking with custom validation</li>
+                            <li>State management using Zustand</li>
+                        </ul>
+                    </div>
+                    <div class="technologies">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">React Router</span>
+                        <span class="tech-tag">Zustand</span>
+                        <span class="tech-tag">Axios</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">Open Trivia DB API</span>
+                    </div>
+                    <a href="https://github.com/youssefmagdyjuo/quiz-app-capstone" class="project-link"
+                        target="_blank">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="contact-intro">I'm always open to new opportunities and interesting projects. Feel free to reach
+                out!</p>
+            <div class="contact-methods">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <a href="mailto:Youssef.magdy.office@gmail.com">Youssef.magdy.office@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/youssefmagdyjuo" target="_blank">github.com/youssefmagdyjuo</a>
+                </div>
+                <div class="contact-item">
+                    <h3>LinkedIn</h3>
+                    <a href="https://linkedin.com/in/youssefmagdyshaban"
+                        target="_blank">linkedin.com/in/youssefmagdyshaban</a>
+                </div>
+            </div>
+            <div class="contact-info">
+                <p><strong>Location:</strong> Alexandria, Egypt</p>
+                <p><strong>Phone:</strong> +201286289971</p>
+                <p><strong>Date of Birth:</strong> January 30, 2003</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Youssef Magdy Shaaban. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
