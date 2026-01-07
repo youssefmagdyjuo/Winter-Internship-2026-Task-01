@@ -135,7 +135,7 @@ body {
 /* About Section */
 .about {
     background: var(--light-bg);
-    padding: 4rem 2rem;
+    padding: 4rem 0.5rem;
 }
 
 .about h2 {
@@ -167,7 +167,7 @@ body {
 
 /* Skills Section */
 .skills {
-    padding: 4rem 2rem;
+    padding: 4rem 0.5rem;
     background: var(--white);
 }
 
@@ -224,7 +224,7 @@ body {
 /* Projects Section */
 .projects {
     background: var(--light-bg);
-    padding: 4rem 2rem;
+    padding: 4rem 0.5rem;
 }
 
 .projects h2 {
